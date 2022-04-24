@@ -86,6 +86,7 @@ while (seguir) {
 //Funcion para sumar el precio al total 
 function Sumar(precio){
     total +=precio;
+    return total
 }
 
 alert(`El total de su compra es de: ${total}`)
